@@ -121,11 +121,6 @@ nav .logo , nav .login{
   float: left;
 }
 
-.section_1 .col_left img{
-  width: 550px;
-  height: 330px
-}
-
 .section_1 .col_right{
   width: 33.33%;
   float: left;
@@ -140,5 +135,13 @@ nav .logo , nav .login{
   padding: 16px 32px 32px;
   line-height: 23px;
 
+}
+
+/* .onda{
+  filter: grayscale(1);
+} */
+/* .bk_section::after{
+  content: url("./img/wave.svg");
+  fill: lightgray; */
 }
  
