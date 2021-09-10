@@ -12,7 +12,7 @@
 }
 
 a{
-  
+  display: inline-block; 
 }
 
 .button{
@@ -29,11 +29,7 @@ a{
   background-color: blue;
 }
 
-.debug .central{
-  width: 700px;
-  margin: auto;
-  text-align: center;
-}
+
   
 
  
@@ -41,6 +37,7 @@ a{
 .bk_top{
   background-image: url("./img/jumbo.png");
   background-size: cover;
+  background-position: center;
 }
 
 #site_header{
@@ -70,34 +67,35 @@ nav .link a{
 nav .logo , nav .login{
   width: 20%;
   float: left;
-  position: relative;
+}
+
+.login .button{
+  margin-left: calc(100% - 65px);
 }
 
 
-nav .login a{
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
-/*section top*/
+/*section to_talk*/
 .central{
+  width: 700px;
+  margin: auto;
+  padding: 100px 0 120px;
+  text-align: center;
   color: white;
 }
 .central h1{
   word-spacing: 2px;
   padding: 20px 20px 30px;
   color: white;
-  font-size: 47px;
+  font-size: 40px;
 }
 
- .central p{
+.central p{
   line-height: 25px; 
-  padding: 0 50px 30px; 
+  padding: 0 50px 20px; 
 }
 
 .download_browser .button{
-  margin-right: 10px;
+  margin: 0 15px 30px;
   font-weight: bold;
   padding: 15px 20px;
 }
