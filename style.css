@@ -4,3 +4,44 @@
   padding: 0;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+ /* Debug  */
+ .debug .bk_top{
+   height: 400px;
+   background-color: blue;
+ }
+.debug #site_header{
+  height: 100px;
+}
+
+.debug .container{
+  height: 100%;
+  width: 1070px;
+  margin: auto;
+  background-color: red;
+}
+ .debug .logo , .debug .login{
+   height: 100px;
+   width: 20%;
+   background-color: violet;
+   float: left;
+ }
+
+ .debug .link{
+   height: 100px;
+   width: 60%; 
+   float: left; 
+ }
+ 
+ /*Header*/
+.bk_top{
+  background-image: url("./img/jumbo.png");
+  background-size: cover;
+}
+
+
+ 
