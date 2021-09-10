@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
 }
 
 .clearfix::after{
@@ -10,14 +11,33 @@
   clear: both;
 }
 
- /* Debug  */
- .debug .bk_top{
-   height: 400px;
-   background-color: blue;
- }
+a{
+  
+}
+
+.button{
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  padding:10px;
+  color: black;
+  font-size: 15px;
+}
+/* Debug  */
+.debug .bk_top{
+  height: 400px;
+  background-color: blue;
+}
+
+.debug .central{
+  width: 700px;
+  margin: auto;
+  text-align: center;
+}
+  
 
  
- /*Header*/
+/*Header*/
 .bk_top{
   background-image: url("./img/jumbo.png");
   background-size: cover;
@@ -33,38 +53,59 @@
 }
 
 nav .link{
-  width: 50%%;
+  width: 60%;
   line-height: 34px;
   float: left;
+  padding: 0 82px;
 }
 
 nav .link a{
-  padding: 0 20px;
+  padding: 0 17px;
   vertical-align: middle;
   text-decoration: none;
   color: white;
+  font-size: 13px;
 }
 
 nav .logo , nav .login{
-  width: 25%;
+  width: 20%;
   float: left;
   position: relative;
 }
 
+
 nav .login a{
-  
-  background-color: white;
-  text-decoration: none;
-  border-radius: 40px;
-  padding:10px;
-  color: black;
   position: absolute;
   top: 0;
   right: 0;
-  font-size: 15px;
+}
 
+/*section top*/
+.central{
+  color: white;
+}
+.central h1{
+  word-spacing: 2px;
+  padding: 20px 20px 30px;
+  color: white;
+  font-size: 47px;
+}
+
+ .central p{
+  line-height: 25px; 
+  padding: 0 50px 30px; 
+}
+
+.download_browser .button{
+  margin-right: 10px;
+  font-weight: bold;
+  padding: 15px 20px;
 }
 
 
+.download_browser .button:last-child{
+  background: black;
+  color: white;
+}
 
  
