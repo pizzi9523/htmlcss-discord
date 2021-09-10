@@ -9,39 +9,62 @@
   display: table;
   clear: both;
 }
+
  /* Debug  */
  .debug .bk_top{
    height: 400px;
    background-color: blue;
  }
-.debug #site_header{
-  height: 100px;
-}
 
-.debug .container{
-  height: 100%;
-  width: 1070px;
-  margin: auto;
-  background-color: red;
-}
- .debug .logo , .debug .login{
-   height: 100px;
-   width: 20%;
-   background-color: violet;
-   float: left;
- }
-
- .debug .link{
-   height: 100px;
-   width: 60%; 
-   float: left; 
- }
  
  /*Header*/
 .bk_top{
   background-image: url("./img/jumbo.png");
   background-size: cover;
 }
+
+#site_header{
+  padding: 20px;  
+}
+
+.container{
+  width: 1070px;
+  margin: auto;
+}
+
+nav .link{
+  width: 50%%;
+  line-height: 34px;
+  float: left;
+}
+
+nav .link a{
+  padding: 0 20px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+}
+
+nav .logo , nav .login{
+  width: 25%;
+  float: left;
+  position: relative;
+}
+
+nav .login a{
+  
+  background-color: white;
+  text-decoration: none;
+  border-radius: 40px;
+  padding:10px;
+  color: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 15px;
+
+}
+
 
 
  
