@@ -25,22 +25,39 @@ a{
 }
 
 /* Debug  */
-.debug .bk_section_4{
-  background-color: violet;
-}
-.debug .top{
-  height: 200px;
-  background-color: grey;
+
+.debug .bk_footer{
+  background-color: #23272a;
 }
 
-.debug .middle{
-  height: 600px;
-  background-color:red;
+.debug .bk_footer .container{
+  height: 500px;
+  background-color: green;
+}  
+
+.debug .top_footer{
+  background-color: rgba(255, 182, 193, 0.589);
+  height: 400px;
+  width: 100%
 }
 
-.debug .bottom{
-  height: 200px;
-  background-color: grey;
+.debug .top_footer .col_left{
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  background-color: yellow;
+}
+
+.debug .top_footer .col_right{
+  float: left;
+  width: 16.66%;
+  height: 100%;
+  background-color: blue;
+}
+
+.debug .bottom_footer{
+  height: 100%;
+  background-color: red;
 }
 
 
@@ -160,13 +177,18 @@ nav .logo , nav .login{
 }
 
 /*section_4*/
-.middle img{
-  padding-left: calc(1070px - 970px)
+.bk_section_4{
+  background-color: lightgray;
 }
 .section_4 .top,
 .section_4 .bottom {
   text-align: center;
 }
+
+.middle img{
+  padding-left: calc(1070px - 970px)
+}
+
 .bk_section_4 .star{
   width: 35%;
   height: 50px;
@@ -186,4 +208,13 @@ nav .logo , nav .login{
 .bottom .button:last-child{
   background-color: #5865f2;;
   color: white;
+}
+
+.onda, .onda_reverse{
+  opacity: 17%;
+  display: block;
+}
+
+.onda_reverse{
+  transform: rotate(180deg);
 }
