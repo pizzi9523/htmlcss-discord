@@ -23,8 +23,27 @@ a{
   color: black;
   font-size: 15px;
 }
+
 /* Debug  */
- 
+.debug .bk_section_4{
+  background-color: violet;
+}
+.debug .top{
+  height: 200px;
+  background-color: grey;
+}
+
+.debug .middle{
+  height: 600px;
+  background-color:red;
+}
+
+.debug .bottom{
+  height: 200px;
+  background-color: grey;
+}
+
+
 
  
 /*Header*/
@@ -100,27 +119,34 @@ nav .logo , nav .login{
   color: white;
 }
 
-/* section */
-.same .container{
+/* section 1-2-3*/
+.same .container,
+.section_4{
   padding: 70px 0;
 }
 
-.same .col_left, .section_2 .col_right{
+.same .col_left,
+.section_2 .col_right{
   width: 66.66%;
   float: left;
 }
 
-.same .col_right, .section_2 .col_left{
+.same .col_right,
+.section_2 .col_left{
   width: 33.33%;
   float: left;
 }
 
-.same .col_right h2, .section_2 .col_left h2{
+.same .col_right h2,
+.section_2 .col_left h2,
+.section_4 .top h2{
   padding: 32px 32px 0;
   font-size: 40px;
 }
 
-.same .col_right p, .section_2 .col_left p{
+.same .col_right p,
+.section_2 .col_left p,
+.section_4 .top p{
   padding: 16px 32px 32px;
   line-height: 23px;
 }
@@ -133,3 +159,31 @@ nav .logo , nav .login{
   transform: rotate(180deg);
 }
 
+/*section_4*/
+.middle img{
+  padding-left: calc(1070px - 970px)
+}
+.section_4 .top,
+.section_4 .bottom {
+  text-align: center;
+}
+.bk_section_4 .star{
+  width: 35%;
+  height: 50px;
+  line-height: 50px;
+  margin: auto;
+  background-image: url("./img/stars.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+.bk_section_4 .star h3{
+  vertical-align: bottom;
+  
+}
+
+.bottom .button:last-child{
+  background-color: #5865f2;;
+  color: white;
+}
