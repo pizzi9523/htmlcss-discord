@@ -25,29 +25,12 @@ a{
 }
 /* Debug  */
 .debug .bk_section{
-  height: 700px;
   background-color: blue;
 }
 
-.debug .bk_section .container{
-  height: 700px;
-  background-color: red;
-}
 
-.debug .col_left{
-  width: 66.66%;
-  height: 700px;
-  background-color: rgba(255, 255, 255, 0.342);
-  float: left;
-  
-}
 
-.debug .col_right{
-  width: 33.33%;
-  height: 700px;
-  background-color: rgba(14, 166, 236, 0.87);
-  float: left;
-}
+
 
 
 
@@ -100,7 +83,7 @@ nav .logo , nav .login{
 .central{
   width: 700px;
   margin: auto;
-  padding: 100px 0 120px;
+  padding: 60px 0;
   text-align: center;
   color: white;
 }
@@ -128,4 +111,34 @@ nav .logo , nav .login{
   color: white;
 }
 
+/* section_1 */
+.bk_section .container{
+  padding-top: 70px;
+}
+
+.section_1 .col_left{
+  width: 66.66%;
+  float: left;
+}
+
+.section_1 .col_left img{
+  width: 550px;
+  height: 330px
+}
+
+.section_1 .col_right{
+  width: 33.33%;
+  float: left;
+}
+
+.section_1 .col_right h2{
+  padding: 32px 32px 0;
+  font-size: 40px;
+}
+
+.section_1 .col_right p{
+  padding: 16px 32px 32px;
+  line-height: 23px;
+
+}
  
