@@ -16,6 +16,10 @@ a{
   display: inline-block; 
 }
 
+i{
+  color: white;
+}
+
 .button{
   background-color: white;
   text-decoration: none;
@@ -23,6 +27,22 @@ a{
   padding:10px;
   color: black;
   font-size: 15px;
+}
+
+.button:hover{
+  box-shadow: 0 8px 15px rgb(0 0 0 / 20%)
+}
+
+.button.white i{
+  color: black;
+}
+
+.button.white:hover{
+  color: #5865f2;
+}
+
+.button.white:hover i{
+  color: #5865f2;
 }
 
 .onda, .onda_reverse{
@@ -227,6 +247,10 @@ nav .logo , nav .login{
 
 .top_footer .col_left .lenguage .espandi{
   vertical-align: middle;
+}
+
+.top_footer .col_left .mini_loghi i{
+  padding-right: 30px;
 }
 
 .top_footer .col_right h5{
