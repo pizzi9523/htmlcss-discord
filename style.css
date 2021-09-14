@@ -78,7 +78,7 @@ nav .link{
   width: 60%;
   line-height: 34px;
   float: left;
-  padding: 0 82px;
+  text-align: center;
 }
 
 nav .link a{
@@ -87,6 +87,9 @@ nav .link a{
   text-decoration: none;
   color: white;
   font-size: 13px;
+}
+nav .link a:hover{
+  text-decoration: underline;
 }
 
 nav .logo , nav .login{
